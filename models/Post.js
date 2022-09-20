@@ -31,4 +31,7 @@ const PostSchema = new mongoose.Schema({
   },
 });
 
+// name the model ("Post")
+// give the construction worker the blueprint for it (PostSchema)
+// specify which collection, in our database, that this document will go into (model)
 module.exports = mongoose.model("Post", PostSchema);
